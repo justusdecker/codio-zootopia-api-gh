@@ -1,6 +1,7 @@
-from json import load as jsload
-
-def load_data(file_path):
+from dotenv import load_dotenv
+from os import getenv
+def load_key() -> str:
     """ Loads a JSON file """
-    with open(file_path, "r") as file_in:
-        return jsload(file_in)
+    load_dotenv('.env')
+    return getenv('API_KEY')
+    
