@@ -12,6 +12,10 @@ The HTMLCreator class takes an animal name as input, calls an external API to re
 > [!IMPORTANT] 
 > To install this project, simply clone the repository and install the dependencies in requirements.txt using `pip`
 
+> [!WARNING]
+> You need to create a `.env` file in the root folder with the following text in it:
+> API_KEY=[``your api key``]
+
 - run animals_web_generator.py
 
 - Type an animal name (e.g., lion, tiger, bear) and press Enter.
