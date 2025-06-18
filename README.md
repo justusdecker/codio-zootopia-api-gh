@@ -6,7 +6,10 @@ This project generates a simple HTML page displaying information about animals f
 ## Overview
 The HTMLCreator class takes an animal name as input, calls an external API to retrieve information about that animal (or related animals), and then generates an HTML file (animals.html) by populating a template (animals_template.html) with the fetched data.
 
+
 ## How to use
+
+> [!ATTENTION] To install this project, simply clone the repository and install the dependencies in requirements.txt using `pip`
 
 - run animals_web_generator.py
 
