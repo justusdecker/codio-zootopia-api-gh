@@ -9,7 +9,7 @@ The HTMLCreator class takes an animal name as input, calls an external API to re
 
 ## How to use
 
-> [!CAUTION] 
+> [!IMPORTANT] 
 > To install this project, simply clone the repository and install the dependencies in requirements.txt using `pip`
 
 - run animals_web_generator.py
@@ -18,6 +18,7 @@ The HTMLCreator class takes an animal name as input, calls an external API to re
 
 - After execution, an animals.html file will be created in the same directory. Open this file in your web browser to see the generated animal information.
 
+> [!CAUTION]
 > Error Handling: Displays a message if the searched animal is not found.
 
 (c) 2025 Justus Decker
